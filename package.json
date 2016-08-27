@@ -1,0 +1,30 @@
+{
+  "name": "npm-version-tree",
+  "version": "0.0.1",
+  "description": "Fetchs the most possible available versions tree for a NPM module.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxqfox/npm-version-tree.git"
+  },
+  "keywords": [
+    "npm",
+    "version",
+    "tree",
+    "nested",
+    "latest"
+  ],
+  "author": "Alexey Yaroshevich <zxqfox@gmail.com>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/zxqfox/npm-version-tree/issues"
+  },
+  "homepage": "https://github.com/zxqfox/npm-version-tree#readme",
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-config-pedant": "^0.7.0"
+  }
+}
