@@ -4,12 +4,26 @@ Module to fetch the most possible available versions tree for a NPM module.
 
 ## How to use
 
+### Fetching versions from NPM by a name
+
 ```js
 const versionTree = require('npm-version-tree');
 
 versionTree(require('./package.json').name, '*', {production: true})
   .then(tree => {
     console.log('latest version: ', tree.version);
+    console.log('deps: ', tree.deps);
+  });
+```
+
+### Fetching versions by a file tree by a path to package directory
+
+```js
+const versionTree = require('npm-version-tree');
+
+versionTree.onFs('.', {production: true})
+  .then(tree => {
+    console.log('current version: ', tree.version);
     console.log('deps: ', tree.deps);
   });
 ```
