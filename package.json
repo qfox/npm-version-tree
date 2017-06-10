@@ -1,5 +1,5 @@
 {
-  "name": "npm-version-tree",
+  "name": "npm-version-tree2",
   "version": "0.1.0",
   "description": "Fetchs the most possible available versions tree for a NPM module.",
   "main": "lib/index.js",
