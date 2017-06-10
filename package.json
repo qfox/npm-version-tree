@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "package-json": "^2.4.0",
+    "read-package-tree": "^5.1.6",
     "semver": "^5.3.0"
   }
 }
