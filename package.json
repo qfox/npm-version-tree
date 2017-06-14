@@ -28,8 +28,8 @@
     "eslint-config-pedant": "^0.7.0"
   },
   "dependencies": {
+    "file-eval": "^1.2.0",
     "package-json": "^2.4.0",
-    "read-package-tree": "^5.1.6",
     "semver": "^5.3.0"
   }
 }
