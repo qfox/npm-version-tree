@@ -1,6 +1,6 @@
 {
   "name": "npm-version-tree2",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Fetchs the most possible available versions tree for a NPM module.",
   "main": "lib/index.js",
   "scripts": {
